@@ -1,0 +1,94 @@
+/* Written by: Cory Joseph 
+ *
+ * This file contains all of the styling (done in CSS)
+ * for my website.
+ *
+ * Photography by: James Martin @ https://www.instagram.com/james.internet
+ */
+ 
+html { 
+  background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.inputbox {
+width: 100px;
+}
+
+#wrapper {
+position: absolute;
+left: 350px;
+width: 500px;
+margin: 50px auto;
+padding: 20px;
+background: white;
+-moz-box-shadow: 10px 10px 20px black;
+-webkit-box-shadow: 10px 10px 20px black;
+box-shadow: 10px 10px 20px black;
+opacity: 0.8;
+}
+
+#wrapper2 {
+position: absolute;
+left: 980px;
+top: 100px;
+width: 200px;
+margin: 50px auto;
+padding: 20px;
+background: white;
+-moz-box-shadow: 10px 10px 20px black;
+-webkit-box-shadow: 10px 10px 20px black;
+box-shadow: 10px 10px 20px black;
+opacity: 0.8;
+
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-weight: bold;
+color: black;
+text-align: center;
+margin: 20px 0 20px 0;
+line-height: 175%;
+}
+
+p {
+font-family: Tahoma, Verdana, Segoe, sans-serif;
+font-weight: bold;
+text-align: center;
+margin: 20px 0 20px 0;
+line-height: 175%;
+}
+
+button {
+    background: #333333;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+-moz-box-shadow: 4px 4px 20px black;
+-webkit-box-shadow: 4px 4px 20px black;
+box-shadow: 4px 4px 20px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

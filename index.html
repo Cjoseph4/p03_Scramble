@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Code Written by: Cory Joseph
+     Photographs taken by: James Martin (my beloved room mate)
+	 https://www.instagram.com/james.internet
+  -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="scramble.css">
+  <title>Word Scramble</title>
+  <script type="text/javascript" src="scramble.js"></script>
+</head>
+<body onload="reset()">
+
+<div id="wrapper">
+  <p id="generated">Welcome to Word Scramble</p>
+  <p><input id="inPut" onchange="inputChecker(this.value)" class="inputbox"
+  onfocus="if(this.value!='') this.value='';"/></p>
+  <p id="check"></p>
+  <p><button id="wordGen" type="button" onclick="wordGenerator()">
+	Generate Word
+  </button>
+  <button id="doneButton" type="button" onclick="window.location='page2.html'">
+	Get Results
+  </button></p>
+</div>
+
+<div id="wrapper2">
+You will have 10 seconds to guess correctly!
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
